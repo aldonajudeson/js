@@ -1,0 +1,128 @@
+// let a 
+// console.log("Hello World");
+// console.log(typeof(a));
+// a = 10;
+// console.log(typeof(a));
+// a= "Hello";
+// console.log(typeof(a));
+// console.log(document);
+
+
+
+// const pi=2.14;
+// {
+//     const pi=2.14   
+//     console.log(pi);
+// }
+// {
+//     const pi=3.14;
+//     console.log(pi);
+    
+// }
+// console.log(pi);
+
+
+// let a=10;
+// const pi=3.14
+// var Sname = "John Doe";
+
+// console.log(a);
+// console.log(pi);
+// console.log(Sname);
+
+
+
+// let a;
+// a=10+11;
+// console.log(a);
+
+
+// {
+//     let a=16;
+//     console.log(a);
+
+// }
+
+// var a=10;
+
+// var a=5;
+
+// {
+//     var a=15;
+//     console.log(a);
+// }
+// console.log(a);
+
+
+// function function_name(name,place,number) 
+// {
+//     name? console.log("Hi",name): console.log("Hi user");
+//     place? console.log("You are from",place): console.log("You are from an unknown place");
+//     number? console.log("Your number is ",number): console.log("No number");
+    
+    
+    
+// }
+
+// function_name("Aldona", "Kochi","9947270116");
+// function_name("Asif", "","9961045596");
+// function_name("Java","kochi","9947581116");
+// function_name("CSS");
+// function_name("Python");
+
+
+// let a="2";
+// let b=2;
+
+// a==b ? console.log("Equal") : console.log("Not Equal");
+
+// let a="2";
+// let b=2;
+// a===b ? console.log("Equal") : console.log("Not Equal");
+
+
+// let a=10;
+// let b=15;
+// console.log(a);
+
+// console.log(++a);
+// console.log(++a);
+// console.log(a--);
+// console.log(--a);
+// console.log(a>b);
+// console.log(a<b);
+// console.log(b<=a);
+// console.log(a=="a");
+// console.log(a===a);
+
+
+
+// let a=0
+// if (a > 0) {
+//     console.log("Positive");
+// }
+// else if(a<0){
+//     console.log("Negative");  
+// }
+// else{
+//     console.log("Zero is neither positive nor negative");
+    
+// }
+
+
+
+//  find Decimal
+
+// let a=15;
+// if(a===0){
+//     console.log(a,"is zero");
+// }
+// else if (a%2===0) {
+//     console.log(a,"is even number");
+// }
+// else if(){
+    
+// }
+    
+// console.log(false+4);
+
