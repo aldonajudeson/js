@@ -111,18 +111,48 @@
 
 
 
-//  find Decimal
-
-// let a=15;
+// let a=15.020;
 // if(a===0){
 //     console.log(a,"is zero");
 // }
 // else if (a%2===0) {
 //     console.log(a,"is even number");
 // }
-// else if(){
+// else if(a%2===1){
+//     console.log(a,"is odd number");
+// }
+// else{
+//     console.log("Not a whole number");
     
 // }
     
 // console.log(false+4);
 
+
+let score=150;
+
+if (score<=100 && score>=90){
+    console.log("A+");
+}
+else if(score<90 && score>=80){
+    console.log("A");
+}
+else if(score<80 && score>=70){
+    console.log("B+");
+}
+else if(score<70 && score>=60){
+    console.log("B");
+}
+else if(score<60 && score>=50){
+    console.log("C+");
+}
+else if(score<50 && score>=40){
+    console.log("C");
+}
+else if(score<40){
+    console.log("Failed");
+}
+else{
+    console.log("Enter a valid score");
+    
+}
