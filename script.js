@@ -129,30 +129,47 @@
 // console.log(false+4);
 
 
-let score=150;
+// let score=150;
 
-if (score<=100 && score>=90){
-    console.log("A+");
-}
-else if(score<90 && score>=80){
-    console.log("A");
-}
-else if(score<80 && score>=70){
-    console.log("B+");
-}
-else if(score<70 && score>=60){
-    console.log("B");
-}
-else if(score<60 && score>=50){
-    console.log("C+");
-}
-else if(score<50 && score>=40){
-    console.log("C");
-}
-else if(score<40){
-    console.log("Failed");
-}
-else{
-    console.log("Enter a valid score");
+// if (score<=100 && score>=90){
+//     console.log("A+");
+// }
+// else if(score<90 && score>=80){
+//     console.log("A");
+// }
+// else if(score<80 && score>=70){
+//     console.log("B+");
+// }
+// else if(score<70 && score>=60){
+//     console.log("B");
+// }
+// else if(score<60 && score>=50){
+//     console.log("C+");
+// }
+// else if(score<50 && score>=40){
+//     console.log("C");
+// }
+// else if(score<40){
+//     console.log("Failed");
+// }
+// else{
+//     console.log("Enter a valid score");
     
-}
+// }
+
+// console.log("Hello world");
+
+// let sum=0;
+// for(let i=1; i<=10; i++){
+//     sum=sum+i; 
+//     console.log(i+"+");
+// }
+// console.log(sum);
+
+let std1=["Aldona","1","Kochi",8714373961]
+let std2=["Asif","2","Kochi",9961045596]
+let std3=["Ahiya","3","Trivandrum",9977884455]
+
+let students=[std1,std2,std3]
+
+console.log(students[1][0]);
