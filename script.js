@@ -166,10 +166,39 @@
 // }
 // console.log(sum);
 
-let std1=["Aldona","1","Kochi",8714373961]
-let std2=["Asif","2","Kochi",9961045596]
-let std3=["Ahiya","3","Trivandrum",9977884455]
+// let std1=["Aldona","1","Kochi",8714373961]
+// let std2=["Asif","2","Kochi",9961045596]
+// let std3=["Ahiya","3","Trivandrum",9977884455]
 
+// let students=[std1,std2,std3]
+
+// console.log(students[1][0]);
+
+let std1={
+    sname:"Aldona",
+    place:"Kochi",
+    admNo: 1
+}
+
+let std2={
+    sname:"Asif",
+    place:"Kochi",
+    address: {
+        home:{name:"Skyline",pin:682014,dt:"ekm",landmark:"near south railway station"},
+        work:{name:"Aesthetix,geocenter",pin:682005,dt:"ekm",landmark:"near holiday inn vytila"}
+    },
+    phone:[9947270116,9947581116]
+}
+
+let std3={
+    sname:"Ahiya",
+    place:"Trivandrum",
+    address: {
+        home:{name:"Trivandrum",pin:695862,dt:"tvm",landmark:"Tvm"},
+        work:{name:"Trivandrum",pin:695862,dt:"tvm",landmark:"Tvm"}
+    },
+    phone: [9988774455,9966558866]
+}
 let students=[std1,std2,std3]
-
-console.log(students[1][0]);
+console.log(students[1].address.work);
+console.log(students[2].phone);
