@@ -174,31 +174,74 @@
 
 // console.log(students[1][0]);
 
-let std1={
-    sname:"Aldona",
-    place:"Kochi",
-    admNo: 1
-}
+// let std1={
+//     sname:"Aldona",
+//     place:"Kochi",
+//     admNo: 1
+// }
 
-let std2={
-    sname:"Asif",
-    place:"Kochi",
-    address: {
-        home:{name:"Skyline",pin:682014,dt:"ekm",landmark:"near south railway station"},
-        work:{name:"Aesthetix,geocenter",pin:682005,dt:"ekm",landmark:"near holiday inn vytila"}
-    },
-    phone:[9947270116,9947581116]
-}
+// let std2={
+//     sname:"Asif",
+//     place:"Kochi",
+//     address: {
+//         home:{name:"Skyline",pin:682014,dt:"ekm",landmark:"near south railway station"},
+//         work:{name:"Aesthetix,geocenter",pin:682005,dt:"ekm",landmark:"near holiday inn vytila"}
+//     },
+//     phone:[9947270116,9947581116]
+// }
 
-let std3={
-    sname:"Ahiya",
-    place:"Trivandrum",
-    address: {
-        home:{name:"Trivandrum",pin:695862,dt:"tvm",landmark:"Tvm"},
-        work:{name:"Trivandrum",pin:695862,dt:"tvm",landmark:"Tvm"}
-    },
-    phone: [9988774455,9966558866]
-}
-let students=[std1,std2,std3]
-console.log(students[1].address.work);
-console.log(students[2].phone);
+// let std3={
+//     sname:"Ahiya",
+//     place:"Trivandrum",
+//     address: {
+//         home:{name:"Trivandrum",pin:695862,dt:"tvm",landmark:"Tvm"},
+//         work:{name:"Trivandrum",pin:695862,dt:"tvm",landmark:"Tvm"}
+//     },
+//     phone: [9988774455,9966558866]
+// }
+// let students=[std1,std2,std3]
+// console.log(students[1].address.work);
+// console.log(students[2].phone);
+
+// let a=["violet","indigo","blue","green","yellow","orange","red"]
+// function callMyName() {
+//     for(let i=0; i<a.length; i++)
+//      setTimeout(function(){document.getElementById("JS").style.color=a[i];},i*250);
+//     setTimeout(callMyName,1750);
+   
+// }
+    // function callMyName(){
+    //         setTimeout(function(){document.getElementById("bg").style.color="white"})
+    //         setTimeout(function(){document.getElementById("bg").style.backgroundColor="black"})
+    // }
+
+
+    function callMyName(){
+        if(document.getElementById("bg").style.backgroundColor==="black"){
+            document.getElementById("bg").style.color="black";
+            document.getElementById("bg").style.backgroundColor="white"
+        }
+        else{
+            document.getElementById("bg").style.color="white";
+            document.getElementById("bg").style.backgroundColor="black";
+
+        }
+    }
+
+
+
+
+    // function callMyName(){
+
+    // }
+
+
+
+
+// setTimeout(alert("timeout"),3000);
+// setInterval(alert("interval"),3000);
+
+
+    // console.log(document.getElementById("HTML"));
+    // console.log(document.getElementsByTagName("h1"));
+    // console.log(document.getElementsByClassName("planguage"));
