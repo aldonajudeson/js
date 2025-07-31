@@ -220,11 +220,13 @@
         if(document.getElementById("bg").style.backgroundColor==="black"){
             document.getElementById("bg").style.color="black";
             document.getElementById("bg").style.backgroundColor="white"
+            document.getElementById("image").src="/images/istockphoto-1317323736-612x612.jpg"
+            
         }
         else{
             document.getElementById("bg").style.color="white";
             document.getElementById("bg").style.backgroundColor="black";
-
+            document.getElementById("image").src="/images/istockphoto-1419410282-612x612.jpg"
         }
     }
 
