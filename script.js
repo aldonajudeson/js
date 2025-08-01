@@ -247,3 +247,6 @@
     // console.log(document.getElementById("HTML"));
     // console.log(document.getElementsByTagName("h1"));
     // console.log(document.getElementsByClassName("planguage"));
+
+
+    
