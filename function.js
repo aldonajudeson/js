@@ -56,19 +56,37 @@
     
     // switch case
 
-let climate="storm"
+// let climate="storm"
 
-switch(climate){
-    case "cloudy":console.log("Might rain");
-        break;
-    case "rainy":console.log("Take umbrella");
-        break;
-    case "sunny":console.log("Take sunglasses");
-        break;
-    case "foggyy":console.log("Take flashlight");
-        break;
-    case "storm":console.log("Take cover");
-        break;
-    default:console.log("You are safe");
-        break;
-}
+// switch(climate){
+//     case "cloudy":console.log("Might rain");
+//         break;
+//     case "rainy":console.log("Take umbrella");
+//         break;
+//     case "sunny":console.log("Take sunglasses");
+//         break;
+//     case "foggyy":console.log("Take flashlight");
+//         break;
+//     case "storm":console.log("Take cover");
+//         break;
+//     default:console.log("You are safe");
+//         break;
+// }
+
+
+
+// try catch 
+
+
+// try {
+//     function div(n1,n2){
+//     let res=n1/n2+n3;
+//     return res;
+// }
+// console.log(div(10,2));
+// console.log(div(15,2));
+// } 
+// catch (err) {
+//     console.log(err.message);
+// }
+// console.log("Program Execution Completed!!");
