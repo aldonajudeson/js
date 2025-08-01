@@ -16,9 +16,59 @@
     // })()
 
 
-    function login( name="user", age=18) {
-        age>18 ?console.log(`Welcome ${name} !!`):console.log(`Sorry ${name}, you are not allowed`);        
-    }
+    // function login( name="user", age=18) {
+    //     age>18 ?console.log(`Welcome ${name} !!`):console.log(`Sorry ${name}, you are not allowed`);        
+    // }
     // login("Aldona",20);
-    login(undefined,25);
-    login("Aldona",2);
+    // login(undefined,25);
+    // login("Aldona",2);
+
+
+    // return function
+
+    // function voteEligibilty(citizen,age){
+    //     if(age>18){
+    //         console.log("Eligible age");
+    //     }
+    //     if(citizen=="Indian"){
+    //         return console.log("Eligible citizen");
+    //     }
+    // }
+    // voteEligibilty("Indian",20)
+
+
+    // function sum(n1,n2){
+    //     let res=n1+n2;
+    //     if(res==0){
+    //         return "zero"
+    //     }
+    //     if(res%2==0){
+    //         return "even"
+    //     }
+    //     else
+    //         return "odd"
+    // }
+
+    // let out=sum(20,10);
+    // console.log(out);
+    // out=sum(15,24);
+    // console.log(out);
+    
+    // switch case
+
+let climate="storm"
+
+switch(climate){
+    case "cloudy":console.log("Might rain");
+        break;
+    case "rainy":console.log("Take umbrella");
+        break;
+    case "sunny":console.log("Take sunglasses");
+        break;
+    case "foggyy":console.log("Take flashlight");
+        break;
+    case "storm":console.log("Take cover");
+        break;
+    default:console.log("You are safe");
+        break;
+}
