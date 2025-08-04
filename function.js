@@ -90,3 +90,31 @@
 //     console.log(err.message);
 // }
 // console.log("Program Execution Completed!!");
+
+// pure function
+
+// let a=20;
+// function sum(n1,n2){
+//     return n1+n2;
+//     // return a+=n1+n2;
+// }
+
+// console.log(sum(1,2));
+// console.log(sum(1,2));
+// console.log(sum(1,2));
+
+// HOF(Higher Order Function),callback(CB) function
+
+function HOF(func,val){
+    val%2==0 ? func():console.log("callback not called!!, so it is an odd number");
+    
+}
+function CB(){
+    console.log("i am callback, its even ");
+    
+}
+function x(){
+    console.log("I am function x");
+}
+HOF(CB,2);
+HOF(x,2);
