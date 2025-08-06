@@ -9,12 +9,13 @@
     <script src="form.js"></script>
 
 
-    <form onsubmit="alert('hello')">
+    <form onsubmit="a(event)">
         <label for="name">Name:</label>
-        <input type="text" name="name" onchange="console.log('changed...')"><br><br>
+        <input type="text" name="name" onchange="a(event)"><br><br>
         <label for="password">Password:</label>
-        <input type="password" oninput="console.log('typing...')"><br><br>
+        <input type="password" oninput="a(event)"><br><br>
         <button type="submit">Submit</button>
     </form>
+    <h1 onclick="a(event)"> Click Me</h1>
 </body>
 </html>

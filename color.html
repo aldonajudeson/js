@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Color</title>
+
+    <style>
+        .squarebox{
+            height: 400px;
+            width: 400px;
+        }
+        html{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="changecolor" class="squarebox">
+    </div><br>
+    <input type="text" oninput="a(event)">
+
+    <script>
+        function a(e){
+            document.getElementById("changecolor").style.backgroundColor=e.target.value;
+        }
+    </script>
+
+
+</html>
