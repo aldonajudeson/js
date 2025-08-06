@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <script src="form.js"></script>
+
+
+    <form onsubmit="alert('hello')">
+        <label for="name">Name:</label>
+        <input type="text" name="name" onchange="console.log('changed...')"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" oninput="console.log('typing...')"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
