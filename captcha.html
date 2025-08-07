@@ -14,6 +14,7 @@
         <div class="container_head">
             <h1>CAPTCHA</h1>
             <h4>Match the images below</h4>
+            <div id="result"> </div>
         </div>
         <div class="container_img">
             <div class="con_img">
@@ -24,17 +25,43 @@
             </div>
         </div>
         <div class="abutton">
-            <button>1</button>
-            <button>2</button>
+            <button onclick="arrow('prev')" class="prev">Prev</button>
+            <button onclick="arrow('next')" class="next">Next</button>
         </div>
+            <div class="sub-btn">
+                <button onclick="submit()" class="sub_btn">SUBMIT</button>
+            </div>
     </div>
 
 
 
 
     <script>
-        const images=["dog.jpg","cat.jpg","monkey.jpg"]
-        
+        const images=["dog.jpg","cat.jpg","monkey.jpg","leopard.jpg","cat2.jpg"]
+        let i=0;
+        function arrow(val){
+            if(val==="next"){
+                i=(i+1)%images.length;
+            }
+            else if(val==="prev"){
+                i=(i-1+images.length)%images.length;
+            }
+            document.getElementById("dog_img").src=images[i];
+        }
+        function submit(){
+            let ls=document.getElementById("cat_img").src;
+            let rs=document.getElementById("dog_img").src;
+            if(ls===rs) {
+                document.getElementById("result").style.display="block";
+                document.getElementById("result").innerText="SUCCESS!!";
+                document.getElementById("result").style.backgroundColor="rgb(6, 94, 6)";
+            }
+            else {
+                document.getElementById("result").style.display="block";
+                document.getElementById("result").innerText="FAILED!!";
+                document.getElementById("result").style.backgroundColor="rgb(152, 22, 22)";
+            }
+        }
     </script>
 </body>
 

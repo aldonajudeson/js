@@ -1,3 +1,6 @@
+*{
+    background-color: beige;
+}
 .container{
     display: flex;
     gap: 5px;
@@ -10,9 +13,53 @@
     gap: 15px;
 }
 .abutton{
-    width: 320px;
+    width: 360px;
     display: flex;
     gap: 150px;
     align-self: flex-end;
+}
+.prev{
+    background-color: grey;
+    color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+}
+.prev:hover{
+    background-color: #cab982;
+    color: black;
+}
+.next{
+    background-color: grey;
+    color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+}
+.next:hover{
+    background-color: #cab982;
+    color: black;
+}
+#result{
+    /* display: none; */
+    color: azure;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-color: black;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+.sub_btn{
+    margin-top: 18px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: grey;
+    color: antiquewhite;
+    padding: 5px;
     
+
+}
+.sub_btn:hover{
+    background-color: brown;
+    color: antiquewhite;
+    width: 150px;
 }
