@@ -223,20 +223,31 @@
 // user input in node
 
 
-const readline = require('readline')
-rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
-rl.write('Welcome to the interactive prompt! \n');
-rl.setPrompt('Your input: ');
-rl.prompt();
+// const readline = require('readline')
+// rl = readline.createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+// });
+// rl.write('Welcome to the interactive prompt! \n');
+// rl.setPrompt('Your input: ');
+// rl.prompt();
 
-rl.on('line', (line) => {
-    if (line.trim() === 'exit') {
-        rl.close();
-    } else {
-        console.log(`You entered: ${line.trim()}`);
-        rl.close();
-    }
-});
+// rl.on('line', (line) => {
+//     if (line.trim() === 'exit') {
+//         rl.close();
+//     } else {
+//         console.log(`You entered: ${line.trim()}`);
+//         rl.close();
+//     }
+// });
+
+
+
+// callback hell
+
+
+// a function side a function inside a function... a hell of functions
+
+
+
+// synchronous - sequential execution
